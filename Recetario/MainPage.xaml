@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Recetario.MainPage"
+             Title="Bienvenido"
+             Background="#5679b3">
+
+    <Grid>
+        <TableView Intent="Menu" HasUnevenRows="True" RowHeight="75" x:Name="menuPrincipal">
+            <TableRoot>
+                <TableSection>
+                    <ViewCell Height="105">
+                        <StackLayout Padding="15,5,15,5" Orientation="Horizontal" BackgroundColor="#5679b3">
+                            <Image Source="Recetario.png"/>
+                            <Label Text="Recetario de Cocina" VerticalOptions="Center" TextColor="Black" FontSize="40" FontAttributes="Bold" FontFamily="Ambawang Signature"/>
+                        </StackLayout>
+                    </ViewCell>
+                </TableSection>
+
+                <TableSection>
+                    <ViewCell Height="65" x:Name="Desayunos" Tapped="Desayunos_Tapped">
+                        <StackLayout Padding="15,5,15,5" Orientation="Horizontal" BackgroundColor="#F9DA97">
+                            <Image Source="Desayuno.png"/>
+                            <Label Text="Desayunos" VerticalOptions="Center" TextColor="Black"/>
+                        </StackLayout>
+                    </ViewCell>
+
+                    <ViewCell Height="65" x:Name="ComidaMexicana" Tapped="ComidaMexicana_Tapped">
+                        <StackLayout Padding="15,5,15,5" Orientation="Horizontal" BackgroundColor="#F9DA97">
+                            <Image Source="Mexican.png"/>
+                            <Label Text="Comida Mexicana" VerticalOptions="Center" TextColor="Black"/>
+                        </StackLayout>
+                    </ViewCell>
+
+                    <ViewCell Height="65" x:Name="Cocteles" Tapped="Cocteles_Tapped">
+                        <StackLayout Padding="15,5,15,5" Orientation="Horizontal" BackgroundColor="#F9DA97">
+                            <Image Source="Cocteles.png"/>
+                            <Label Text="Cocteles" VerticalOptions="Center" TextColor="Black"/>
+                        </StackLayout>
+                    </ViewCell>
+
+                    <ViewCell Height="65" x:Name="ComidaVegana" Tapped="ComidaVegana_Tapped">
+                        <StackLayout Padding="15,5,15,5" Orientation="Horizontal" BackgroundColor="#F9DA97">
+                            <Image Source="Vegan.png"/>
+                            <Label Text="Comida Vegana" VerticalOptions="Center" TextColor="Black"/>
+                        </StackLayout>
+                    </ViewCell>
+
+                    <ViewCell Height="65" x:Name="Postres" Tapped="Postres_Tapped">
+                        <StackLayout Padding="15,5,15,5" Orientation="Horizontal" BackgroundColor="#F9DA97">
+                            <Image Source="Postres.png"/>
+                            <Label Text="Postres" VerticalOptions="Center" TextColor="Black"/>
+                        </StackLayout>
+                    </ViewCell>
+
+                    <ViewCell Height="65" x:Name="PescadosMariscos" Tapped="PescadosMariscos_Tapped">
+                        <StackLayout Padding="15,5,15,5" Orientation="Horizontal" BackgroundColor="#F9DA97">
+                            <Image Source="PezMar.png"/>
+                            <Label Text="Pescados y Mariscos" VerticalOptions="Center" TextColor="Black"/>
+                        </StackLayout>
+                    </ViewCell>
+
+                    <ViewCell Height="65" x:Name="Pasta" Tapped="Pasta_Tapped">
+                        <StackLayout Padding="15,5,15,5" Orientation="Horizontal" BackgroundColor="#F9DA97">
+                            <Image Source="Pasta.png"/>
+                            <Label Text="Pasta" VerticalOptions="Center" TextColor="Black"/>
+                        </StackLayout>
+                    </ViewCell>
+
+                    <ViewCell Height="65" x:Name="AcercaDe" Tapped="AcercaDe_Tapped">
+                        <StackLayout Padding="15,5,15,5" Orientation="Horizontal" BackgroundColor="#F9DA97">
+                            <Image Source="question.png"/>
+                            <Label Text="Acerca de..." VerticalOptions="Center" TextColor="Black"/>
+                        </StackLayout>
+                    </ViewCell>
+                </TableSection>
+            </TableRoot>
+        </TableView>
+    </Grid>
+
+
+</ContentPage>

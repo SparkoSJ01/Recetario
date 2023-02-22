@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "YyeBDN7trQzKzJNDGo7rwWdtmRs+lDAZYahWnz4giwc6qCtV4EkS+9R1l5fUbvIemQ+HoAZx1WulO/2FI7Hn+w==",
+  "success": true,
+  "projectFilePath": "D:\\Users\\alan_\\Documents\\Trabajos\\Programacion\\Android\\Recetario\\Recetario\\Recetario.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alan_\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\alan_\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\alan_\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\alan_\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\alan_\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
