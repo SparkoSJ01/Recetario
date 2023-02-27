@@ -4,10 +4,22 @@
              x:Class="Recetario.views.PescadosMariscos"
              Title="Pescados y Mariscos">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Grid>
+
+            <StackLayout>
+
+                <!--<SearchBar x:Name="Busqueda" BackgroundColor="White" SearchButtonPressed="Busqueda_SearchButtonPressed"/>-->
+
+                <Label Text="El servicio no esta disponible..." x:Name="lbl" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" IsVisible="False"/>
+
+                <WebView x:Name="webView" WidthRequest="100" HeightRequest="1000" Navigating="webView_Navigating" Navigated="webView_Navigated" />
+
+            </StackLayout>
+
+            <Grid x:Name="VistaOpaca" Opacity="0.4" BackgroundColor="Ivory" IsVisible="True">
+                <ActivityIndicator x:Name="Indicador" IsRunning="True" HorizontalOptions="Center" Color="Black"/>
+            </Grid>
+
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
