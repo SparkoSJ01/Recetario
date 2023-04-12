@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Recetario.LogIn">
+    <ContentPage.Content>
+        <Grid>
+            <Image Source="fondo.jpg" Aspect="AspectFill" />
+            <BoxView Color="#333" Opacity="0.8" />
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <Image Source="cooking.png" Grid.Row="0" Aspect="AspectFit" WidthRequest="220" HeightRequest="220" Margin="0,0,0,50" />
+                <StackLayout Grid.Row="1" Padding="30,0" Margin="0,10,0,10">
+                    <Entry Placeholder="Usuario: " x:Name="txtcorreo" PlaceholderColor="#fff" TextColor="#fff" />
+                    <Entry Placeholder="Contraseña: " x:Name="txtpass" PlaceholderColor="#fff" TextColor="#fff" IsPassword="True" />
+                    <Entry Placeholder="Respuesta del Servidor" x:Name="txtres" PlaceholderColor="Transparent" TextColor="#fff" IsReadOnly="True" />
+                    <Button Text="Iniciar sesion" x:Name="btnentrar" Clicked="btnentrar_Clicked" BackgroundColor="#023859" CornerRadius="20" TextColor="#00cf62" Margin="0,20,0,20" />
+                    <!--<StackLayout Orientation="Horizontal" Padding="0,30" Margin="0,20,0,20">
+                        <Button Text="Registrarse" FontAttributes="Bold" TextColor="White"  />
+                        <Button Text="¿Olvido su contraseña?" FontAttributes="Bold" TextColor="White" HorizontalOptions="EndAndExpand" />
+                    </StackLayout>-->
+                </StackLayout>
+                <!--<StackLayout Grid.Row="2" HorizontalOptions="Center" Margin="0,50,0,50">
+                    <Label Text="Iniciar sesion con: " HorizontalOptions="Center" TextColor="White" FontAttributes="Bold"/>
+                </StackLayout>-->
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

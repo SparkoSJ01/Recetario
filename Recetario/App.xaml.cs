@@ -10,7 +10,7 @@ namespace Recetario
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new LogIn());
         }
 
         protected override void OnStart()
