@@ -9,6 +9,10 @@
   <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="33" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-feature android:name="android.hardware.location.gps" />
+  <uses-feature android:name="android.hardware.location.network" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <application android:label="Recetario.Android" android:theme="@style/MainTheme" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/recetario" android:extractNativeLibs="true">
     <activity android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:icon="@mipmap/recetario" android:label="Recetario" android:theme="@style/MainTheme" android:name="crc64babe2eec4e55928a.MainActivity" android:exported="true">

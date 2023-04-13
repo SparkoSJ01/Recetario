@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JZatQqqvKRuQPeXw2X1YuF+l5XNkjpfMQuQqw7UzpMC0m9NJbCv0y9acdm1TDreOEIJnNiMzVTtDhcFUiiENAg==",
+  "dgSpecHash": "3AfI8kurak8xEpbcvG6CQjq6KhqReSU45yVNVQkN/eh7ey0ViffMDOvMVhvl6n7YlWp2oZ+2S5CZqM7WcHZ9oA==",
   "success": true,
   "projectFilePath": "D:\\Users\\alan_\\Documents\\Trabajos\\Programacion\\Android\\Recetario\\Recetario\\Recetario.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\alan_\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\alan_\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\alan_\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\alan_\\.nuget\\packages\\xam.plugin.geolocator\\4.5.0.6\\xam.plugin.geolocator.4.5.0.6.nupkg.sha512",
     "C:\\Users\\alan_\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\alan_\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],

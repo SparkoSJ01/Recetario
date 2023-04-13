@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Recetario.Ubicacion"
+             Title="Ubicacion">
+
+
+    <StackLayout>
+        <Label Text="Sepa donde se euncuentra!" FontSize="Title"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        <Label Text="latitud" />
+        <Label x:Name="lat" />
+        <Label Text="longitud" />
+        <Label x:Name="lon" />
+        <Button Text="Mostrar mapa" x:Name="mostrarMapa" Clicked="mostrarMapa_Clicked" />
+    </StackLayout>
+
+</ContentPage>

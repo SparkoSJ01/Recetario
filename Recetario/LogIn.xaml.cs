@@ -45,7 +45,7 @@ namespace Recetario
                     Usuarios tmp = JsonConvert.DeserializeObject<Usuarios>(contenido);
                     if (tmp.respuesta == "OK")
                     {
-                        await Navigation.PushAsync(new MainPage());
+                        await Navigation.PushAsync(new MenuMain());
                     }
                     else
                     {

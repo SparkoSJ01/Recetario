@@ -22,3 +22,5 @@ D:\Users\alan_\Documents\Trabajos\Programacion\Android\Recetario\Recetario\bin\R
 D:\Users\alan_\Documents\Trabajos\Programacion\Android\Recetario\Recetario\bin\Release\netstandard2.0\Recetario.pdb
 D:\Users\alan_\Documents\Trabajos\Programacion\Android\Recetario\Recetario\obj\Release\netstandard2.0\XamlC.stamp
 D:\Users\alan_\Documents\Trabajos\Programacion\Android\Recetario\Recetario\obj\Release\netstandard2.0\ref\Recetario.dll
+D:\Users\alan_\Documents\Trabajos\Programacion\Android\Recetario\Recetario\obj\Release\netstandard2.0\MenuMain.xaml.g.cs
+D:\Users\alan_\Documents\Trabajos\Programacion\Android\Recetario\Recetario\obj\Release\netstandard2.0\Ubicacion.xaml.g.cs
